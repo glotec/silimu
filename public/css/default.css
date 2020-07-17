@@ -1,0 +1,27 @@
+/* .placeholders
+{
+    margin: 0 40px 0 40px;
+} */
+
+.placeholder
+{
+    background: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    margin: 3px;
+}
+
+td
+{
+    color: #0CB96E;
+}
+
+.nav-sidebar li
+{
+    border-right: 1px solid thistle;
+}

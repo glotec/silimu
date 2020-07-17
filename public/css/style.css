@@ -1,0 +1,98 @@
+body
+{
+    background: #1a1a1a;
+    color: #fff;
+}
+
+.sidebar a
+{
+    color: #0CB96E;
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+
+nav ul li
+{
+    font-family: 'Poppins';
+}
+
+.navbar-brand
+{
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+
+/* .main
+{
+    margin-top: -200px;
+} */
+
+p
+{
+    font-family: 'Robboto';
+}
+
+p a
+{
+    color: #0CB96E;
+    font-family: 'Josefin Sans';
+    font-size: 24px;
+}
+
+p a:hover
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4
+{
+    font-family: 'Poppins';
+    color: #2113a5;
+}
+
+.card
+{
+    border: 1px solid #0CB96E;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+input
+{
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+}
+
+.log
+{
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+label
+{
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+}
+
+.carte
+{
+    font-weight: bold;
+    text-align: center;
+    font-family: monospace;
+}
+
+.card
+{
+    background-image: url(../img/bg.png);
+    color: #fff;
+}
+
+img .imgCard
+{
+    width: 200px;
+    height: 150px;
+}

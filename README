@@ -1,0 +1,61 @@
+<!----------------------------------------------- SOFTWARE DIVISION PROVINCIAL DE LA SANTE DU SUD KIVU ------------------------------------------------------------------------>
+
+1. De l'organisation du système
+
+Le systeme a deux comptes:
+	- Compte utilisateur
+	- Compte administrateur
+
+    a. Compte utilisateur
+
+ce compte n'a que deux fonctionalités:
+- Ajouter les agents
+- Modifier certaines informations, non sensible de l'agent.
+
+Il peut aussi afficher quelques informations de agents. Ce qui lui permettra de savoir s'il a ou non commit des erreurs dans ses insertions.
+
+    b. Compte administrateur
+
+Ce dernier est capable de d'ajouter, de modofier un agent,
+il pourra aussi ajouter d'autres informations sensible à l'agent
+
+Ce dernier n'est pas encore terminé, il est toujours en cours de développement.
+
+2. Accès au système
+
+Pour accéder au système, il est impératif de suivres ses étapes:
+
+- installer un serveur apache, comprenant mysql, pour la base de données :
+	à ce fait, je proposerai d'installer Wampp ou Xampp ou EasyPHP, pour un système Windows
+	pour lunix, Xampp faire l'affaire
+	pour Mac, il y a Mampp
+
+- La deuxième étape est la plus simple, celle de déplacer le projet pour qu'elle soit accessible par PHP et ainsi accessible au navigateur.
+* Pour Xampp, Wampp et Mampp, il y a un dossier nommé "htdocs", c'est là qu'on aura à travailler.
+* Pour accéder à ce dossier :
+	- Pour Windows c'est seulement dans local disc C -> Xampp ou Wampp -> htdocs et dqns htdocs vous y placer le dossier sante déjà décompresser.
+
+après avoir installer ce système gestionnaire de base de données, lancez le
+
+- Dans database, créer une base de données nommé "sante" tel qu'est écrit ici.
+	après création de "sante" base de données, ouvrez cette nouvelle base de données et juste au menu de l'entête, il y a un onglet "IMPORT" ou "IMPORT DATABASE", cliquer sur ce lien puis cliquer sur 'choose file' en anglais et 'choisir un fichier' en français en suite allez dans le dossier du projet, il y a un sous dossier nommé 'conf' et dans ce sous dossier il y a un fichier nommé 'sante.sql' selectionner le et puis cliquer sur 'executer' ou 'go' pour le navigateur en anglais dans le navigateur, après l'exécution du script, vous avez votre base de données.
+
+- Dans le navigateur en trez ce lien : 'localhost/sante/index.php' 
+là l'applicaton devra se lancer.
+
+Sinon, verifier encore le processus selon le message d'erreur que le navigateur vous donnera.
+Si ça ne marche pas, contactez nous pour la marche à suive et / ou la maintenence.
+
+3. Ouvrir le Système
+
+- Il y a un seul formulaire de connexion
+
+* Pour le compte utilisteur:
+ - Nom d'utilisateur : lor
+ - Mot de passe : lor
+
+* Pour le compte admin
+ -Nom d'utilisateur : admin
+ - Mot de passe : admin
+
+Au reste, contactez nous
